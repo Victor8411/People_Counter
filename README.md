@@ -9,7 +9,7 @@ This project turns a Raspberry Pi 5 and a High Quality Camera into a real-time p
 ## 🔧 Hardware Requirements
 
 * Raspberry Pi 5 (tested)
-* Raspberry Pi High Quality Camera (or compatible CSI camera)
+* Raspberry Pi High Quality Camera 
 * MicroSD card with Raspberry Pi OS 64-bit (Bookworm recommended)
 * Internet connection (Wi-Fi or Ethernet)
 
@@ -155,7 +155,6 @@ You should see logs like:
 ## 📎 Files
 
 * `install.sh` → full automated installer
-* `count_people.py` → real-time detection + InfluxDB sending
 
 ---
 
@@ -169,9 +168,6 @@ You should see logs like:
 
 ## 📷 Example (to be added)
 
-> Insert here a screenshot of Grafana dashboard showing detection graph
-
----
 
 ## 📬 Feedback
 
