@@ -179,7 +179,7 @@ curl -s -X POST http://localhost:3000/api/datasources \
 ### ✅ Fin
 echo ""
 echo "🎉 INSTALLATION TERMINÉE"
-echo "➡️ Grafana : http://$(hostname -I | awk '{print $1}'):3000  (admin / adminadmin)"
+echo "➡️ Grafana : http://$(hostname -I | awk '{print $1}'):3000  (admin / admin)"
 echo "➡️ InfluxDB : http://$(hostname -I | awk '{print $1}'):8086  (admin / adminadmin)"
 echo "➡️ Logs script : journalctl -fu count_people.service"
 
