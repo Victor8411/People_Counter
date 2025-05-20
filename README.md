@@ -169,7 +169,7 @@ You should see logs like:
 
 ---
 
-## 📷 Example (to be added)
+## 📷 Example
 
 ![image](https://github.com/user-attachments/assets/c6b0040e-3e19-4f27-9933-00dbecbc20c5)
 
