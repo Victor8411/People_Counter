@@ -72,9 +72,8 @@ chmod +x install.sh
 
 ## 📊 Manual Grafana Datasource Configuration (if auto-fail)
 
-If the script fails to configure Grafana automatically, here is how to do it manually:
 
-### 📍 In Grafana UI:
+### 📍 In Grafana UI (http://IP:3000):
 
 1. Go to **Configuration > Data sources > Add data source**
 2. Select **InfluxDB**
@@ -138,11 +137,11 @@ You should see logs like:
 
 ## ✅ Default Credentials
 
-* Grafana: [http://<IP>:3000](http://<IP>:3000)
+* Grafana: http://IP:3000
 
   * Login: `admin`
   * Password: `adminadmin`
-* InfluxDB: [http://<IP>:8086](http://<IP>:8086)
+* InfluxDB: http://IP:8086
 
   * Login: `admin`
   * Password: `adminadmin`
