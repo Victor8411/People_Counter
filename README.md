@@ -79,6 +79,10 @@ chmod +x install.sh
 2. Select **InfluxDB**
 3. Fill in the following:
 
+#### 🔷 QUERY LANGUAGE
+
+* **Query Language**: `Flux`
+
 #### 🔷 HTTP
 
 * **URL**: `http://localhost:8086`
