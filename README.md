@@ -113,7 +113,7 @@ Creating a new panel:
 
 ```flux
 from(bucket: "admin")
-  |> range(start: -10m)
+  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)
   |> filter(fn: (r) => r._measurement == "person_counter")
   |> filter(fn: (r) => r._field == "count")
 ```
