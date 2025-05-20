@@ -117,9 +117,9 @@ from(bucket: "admin")
   |> filter(fn: (r) => r._measurement == "person_counter")
   |> filter(fn: (r) => r._field == "count")
 ```
-
+Then refresh.
 This will display a graph of how many people were detected over time.
-
+Save dashboard.
 ---
 
 ## 🔁 Service Management
