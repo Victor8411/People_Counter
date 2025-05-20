@@ -140,7 +140,7 @@ You should see logs like:
 * Grafana: http://IP:3000
 
   * Login: `admin`
-  * Password: `adminadmin`
+  * Password: `admin`
 * InfluxDB: http://IP:8086
 
   * Login: `admin`
