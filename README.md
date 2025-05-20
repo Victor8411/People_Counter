@@ -86,8 +86,6 @@ chmod +x install.sh
 #### 🔷 HTTP
 
 * **URL**: `http://localhost:8086`
-* **Access**: `Server`
-* **Timeout**: `30`
 
 #### 🔐 Auth (all unchecked)
 
@@ -109,7 +107,9 @@ Click **Save & Test**. You should see "Data source is working".
 
 ## 🧪 Grafana Query to Display People Count
 
-When creating a new panel:
+Go to dashboards for creating a new one.
+Add new visualisation with the data source created.
+Creating a new panel:
 
 ```flux
 from(bucket: "admin")
