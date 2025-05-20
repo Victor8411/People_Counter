@@ -171,8 +171,7 @@ You should see logs like:
 
 ## 📷 Example (to be added)
 
-![image](https://github.com/user-attachments/assets/89b3bda3-a059-4760-8777-3a32270177f6)
-
+![image](https://github.com/user-attachments/assets/c6b0040e-3e19-4f27-9933-00dbecbc20c5)
 
 ## 📬 Feedback
 
