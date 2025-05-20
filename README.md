@@ -114,8 +114,9 @@ Creating a new panel:
 ```flux
 from(bucket: "admin")
   |> range(start: v.timeRangeStart, stop: v.timeRangeStop)
-  |> filter(fn: (r) => r._measurement == "person_counter")
-  |> filter(fn: (r) => r._field == "count")
+  |> filter(fn: (r) => r["_measurement"] == "person_counter")
+  |> filter(fn: (r) => r["_field"] == "count")
+  |> aggregateWindow(every: 1s, fn: last, createEmpty: false)
 ```
 Then refresh.
 This will display a graph of how many people were detected over time.
