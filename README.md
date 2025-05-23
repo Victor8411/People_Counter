@@ -70,7 +70,7 @@ chmod +x install.sh
 
 ---
 
-## 📊 Manual Grafana Datasource Configuration (if auto-fail)
+## 📊 Manual Grafana Datasource Configuration 
 
 
 ### 📍 In Grafana UI (http://IP:3000):
