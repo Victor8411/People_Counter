@@ -10,7 +10,7 @@ This project turns a Raspberry Pi 5 and a High Quality Camera into a real-time p
 
 * Raspberry Pi 5 (tested)
 * Raspberry Pi High Quality Camera 
-* MicroSD card with Raspberry Pi OS 64-bit (Bookworm recommended)
+* NVME with Raspberry Pi OS 64-bit (Bookworm recommended)
 * Internet connection (Wi-Fi or Ethernet)
 
 ---
